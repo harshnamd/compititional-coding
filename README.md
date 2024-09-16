@@ -46,7 +46,7 @@ This repository contains the code for the project developed by Team DevDynamos f
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Nakshatra-Vashistha/Smart-India-Hackathon-2024-Team-DevDynamos--Main-REPO.git
+   git clone https://github.com/harshnamd/compititional-coding
    ```
 
 2. **Navigate to the Project Directory:**
