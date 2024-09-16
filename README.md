@@ -94,14 +94,14 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions, feel free to reach out:
 
-- **Email:** nvashistha500@gmail.com 
-- **GitHub:** [Nakshatra-Vashistha](https://github.com/Nakshatra-Vashistha)
+- **Email:** hnamdev2005@gmail.com 
+- **GitHub:** [HArsh-Namdev](https://github.com/harshnamd)
 
 ## **Team Members**
 
   -Krishna Goyal (Leader)
-  -Nakshatra Vashistha
-  -Harsh Namdev
-  -Saksham Bansal
-  -Priyanshu Khandelwal
-  -Harshita Kumari
+  -Nakshatra Vashistha (Front-End developer)
+  -Harsh Namdev (Front-End developer and Data-Base)
+  -Saksham Bansal (Back-End developer)
+  -Priyanshu Khandelwal (Back-End developer)
+  -Harshita Kumari (UI & UX)
