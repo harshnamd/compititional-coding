@@ -95,7 +95,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions, feel free to reach out:
 
 - **Email:** hnamdev2005@gmail.com 
-- **GitHub:** [HArsh-Namdev](https://github.com/harshnamd)
+- **GitHub:** [Harsh-Namdev](https://github.com/harshnamd)
 
 ## **Team Members**
 
