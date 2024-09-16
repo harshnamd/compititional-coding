@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Emission Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/Inputpage.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+</head>
+<body>
+               <!-- NAVBAR 1 -->
+               <nav class="bar1">
+                    <div class="logo">
+                        <a href="index.html"><img src="{{ url_for('static', filename='IMAGES/logo.png') }}"></a>
+                        
+                    </div>
+                    <div class="logo_title">
+                        <h2>DevDynos</h2>
+                    </div>
+                    
+                    
+                    <div class="navigation1">
+                        <div class="addresses">
+                            <img src="{{ url_for('static', filename='IMAGES/logo2.png') }}" alt="">
+                            <div class="add1">
+                                <p class="add1_font1">INDIA  </p>
+                                <p class="add1_font2">Greater NOIDA,</p> 
+                            </div>
+                            <div class="add2">
+                                <p class="add2_font1">DevDynamos@gmail.com </p>
+                                <p class="add2_font2">8126659299</p> 
+                            </div>
+                            <div class="add3">
+                                <p class="add3_font1">8359285283502</p>
+                                <p class="add3_font2">Galgotias University</p> 
+                            </div>
+                            
+                        </div>
+                    </div>
+               </nav>
+               <!-- line  -->
+               <div class="line">
+                    <hr>
+               </div>
+               <!-- NAVBAR 2  -->
+               <nav class="bar2">
+                    
+                <div class="navigation2">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="Aboutus.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/login page/login.html"><button class="button_signin"> My Account</button></a></li>
+                    <li>
+                    <div class="icons">
+                        <div class="container_nav2">
+                            <a href="" class="icon icon-instagram">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="" class="icon icon-twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="icon icon-github">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    </li>
+                    <li>
+                        <div class="serch">
+                            <div class="inputBx">
+                                <input type="text" placeholder="Search">
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+                  
+                  
+                </div>
+               </nav>
+
+               <!-- HERO SECTION 1  -->
+               <header>
+                <h1>Carbon Footprint Calculator</h1>
+              </header>
+            
+              <main>
+                <section class="intro">
+                  <p>The energy sector, particularly coal, is a major contributor. However, India has shown commitment to address this issue by investing in renewable energy, implementing policies to promote sustainability, and enhancing public awareness. Managing India's carbon footprint is crucial for combating climate change while ensuring sustainable development for its vast population.</p>
+                </section>
+            
+                <section class="calculator">
+                  <h2>Calculate your Carbon Footprint</h2>
+            
+            
+                  <div class="option">
+                    
+                    <h3>Upload an Excel Sheet</h3>
+                    <form action="/upload" method="post" enctype="multipart/form-data">
+                        <button> <input type="file" name="file" accept=".xlsx, .xls">
+                        </button>
+                        <input type="submit" value="Upload">
+                    </form>
+                
+                    
+                        
+                    <button onclick="downloadFile()">Download Input Excel Template</button>
+                    <script>
+                        function downloadFile() {
+                            window.location.href = '/download-excel';
+                        }
+                    </script>
+                  </div>
+                </section>
+            
+            
+              </main>
+
+              <!-- Hero FOOTER  -->
+             <div class="footer_main">
+                <footer class="footer">
+                    <div class="container_footer">
+                        <div class="row">
+                            <div class="footer-col">
+                                <h4>company</h4>
+                                <ul>
+                                    <li><a href="#">about us</a></li>
+                                    <li><a href="#">our services</a></li>
+                                    <li><a href="#">privacy policy</a></li>
+                                    <li><a href="#">affiliate program</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>get help</h4>
+                                <ul>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">shipping</a></li>
+                                    <li><a href="#">returns</a></li>
+                                    <li><a href="#">order status</a></li>
+                                    <li><a href="#">payment options</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-col">
+                                <h4>follow us</h4>
+                                <div class="social-links">
+                                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </footer>
+             </div>

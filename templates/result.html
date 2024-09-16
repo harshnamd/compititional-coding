@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Emission Calculator </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/result.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+</head>
+<body>
+               <!-- NAVBAR 1 -->
+               <nav class="bar1">
+                    <div class="logo">
+                        <a href="index.html"><img src="{{ url_for('static', filename='IMAGES/logo.png') }}"></a>
+                        
+                    </div>
+                    <div class="logo_title">
+                        <h2>DevDynos</h2>
+                    </div>
+                    
+                    
+                    <div class="navigation1">
+                        <div class="addresses">
+                            <img src="{{ url_for('static', filename='IMAGES/logo2.png') }}" alt="">
+                            <div class="add1">
+                                <p class="add1_font1">INDIA  </p>
+                                <p class="add1_font2">Greater NOIDA,</p> 
+                            </div>
+                            <div class="add2">
+                                <p class="add2_font1">DevDynamos@gmail.com </p>
+                                <p class="add2_font2">8126659299</p> 
+                            </div>
+                            <div class="add3">
+                                <p class="add3_font1">8359285283502</p>
+                                <p class="add3_font2">Galgotias University</p> 
+                            </div>
+                            
+                        </div>
+                    </div>
+               </nav>
+               <!-- line  -->
+               <div class="line">
+                    <hr>
+               </div>
+               <!-- NAVBAR 2  -->
+               <nav class="bar2">
+                    
+                <div class="navigation2">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="Aboutus.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/Html/login.html"><button class="button_signin"> My Account</button></a></li>
+                    <li>
+                    <div class="icons">
+                        <div class="container">
+                            <a href="" class="icon icon-instagram">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="" class="icon icon-twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="" class="icon icon-github">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    </li>
+                    <li>
+                        <div class="serch">
+                            <div class="inputBx">
+                                <input type="text" placeholder="Search">
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+                  
+                  
+                </div>
+               </nav>
+
+
+               <!-- HERO SECTION  -->
+            <!-- Middle Section for Data from Flask Backend -->
+    <div class="content_res">
+       
+        <div class="data-container_res">
+            <!-- This is where the dynamic data from Flask will be displayed -->
+           <b> Total Carbon Emissions:</b><div class="dt">{{ data }} <i>tons of CO2</i></div>
+            <div class="recom">
+                <h2>Suggestions</h2>
+                <p>{{suggestions}}</p>
+
+            </div>
+            <div class="sh">
+                <h3>Powered By AI </h3>
+            </div>
+
+    </div>
+<div class="li">
+        
+        <h1>
+            Be Part of the Carbon-Free Revolution!
+        </h1>
+    <div class="ks">
+        <a href="https://donate.jointsdgfund.org/">
+            https://donate.jointsdgfund.org/
+
+        </a><br>
+        <a href="https://cleanair.org/">
+            https://cleanair.org/
+            
+        </a> <br>      
+         <a href="https://coltura.org/donation-air-pollution/">
+            https://coltura.org/donation-air-pollution/
+            
+        </a><br>
+        <a href="https://purposeontheplanet.org/donate-offset-carbon-footprint-donations//">
+            https://purposeontheplanet.org/donate-offset-carbon-footprint-donations//
+            
+        </a><br>
+    </div>
+
+
+
+</div>
+
+
+ 
+  
+
+
+
+    <!-- Hero FOOTER  -->
+    <div class="footer_main">
+        <footer class="footer">
+            <div class="container_footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Features</h4>
+                        <ul>
+                            <li><a href="#">Input Data</a></li>
+                            <li><a href="#">Upload File</a></li>
+                            <li><a href="#">Example File</a></li>
+                            <li><a href="#">Log in</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+     </div>
+
+    
+        
+     </body>
