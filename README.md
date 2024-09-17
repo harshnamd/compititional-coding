@@ -45,17 +45,17 @@ This repository contains the code for the project developed by Team DevDynamos f
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/harshnamd/compititional-coding
+    ```bash git clone
+    https://github.com/harshnamd/compititional-coding
    ```
 
-2. **Navigate to the Project Directory:**
+3. **Navigate to the Project Directory:**
 
    ```bash
    cd Smart-India-Hackathon-2024-Team-DevDynamos--Main-REPO
    ```
 
-3. **Run the Application:**
+4. **Run the Application:**
 
    - For the frontend, open `index.html` in your preferred web browser to view the application.
    - For the backend, follow the instructions in the `backend/` directory to set up Flask, Django, and MySQL.
