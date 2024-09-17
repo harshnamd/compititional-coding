@@ -44,8 +44,9 @@ This repository contains the code for the project developed by Team DevDynamos f
 ## **Getting Started**
 
 1. **Clone the Repository:**
+   git clone
 
-    ```bash git clone
+    ```bash 
     https://github.com/harshnamd/compititional-coding
    ```
 
